@@ -1,0 +1,26 @@
+.height{
+  height: 100%;
+}
+
+.options{
+  height: 500px;
+}
+
+.subtitle{
+  height: 80%;
+}
+
+.min-height{
+  height: 87%;;
+}
+
+.divSticky{
+  height: 200px;
+}
+
+.card{
+  min-height: 800px;
+  width: 90%;
+  border-radius: 20px;
+  border: 1px solid black;
+}
