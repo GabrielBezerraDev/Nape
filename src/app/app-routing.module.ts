@@ -5,11 +5,16 @@ const routes: Routes = [
   {
     path: '',
     pathMatch:"full",
-    redirectTo:"nape/home"
+    redirectTo:"home"
   },
   {
-    path:'nape/home',
+    path:'home',
     loadChildren: () => import("./home/home.module").then((m) => m.HomeModule)
+  },
+  {
+    path:"**",
+    pathMatch:"full",
+    redirectTo:""
   }
 ];
 
